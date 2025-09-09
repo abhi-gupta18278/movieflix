@@ -24,7 +24,7 @@ It allows users to explore trending movies, TV shows, popular content, and detai
 
 
 <p align="center">
-  <img src="src/assets/Home.png" alt="My Project " width="400"/>
+  <img src="src/assets/Home.jpg" alt="My Project " width="500"/>
 </p>
 🏠 Homepage
 
@@ -35,7 +35,7 @@ It allows users to explore trending movies, TV shows, popular content, and detai
 
 
 <p align="center">
-  <img src="src/assets/Trending.png" alt="My Project " width="400"/>
+  <img src="src/assets/Trending.jpg" alt="My Project " width="500"/>
 </p>
 
 🎬 Movie Details
@@ -43,7 +43,7 @@ It allows users to explore trending movies, TV shows, popular content, and detai
 
 
 <p align="center">
-  <img src="src/assets/Details.png" alt="My Project " width="400"/>
+  <img src="src/assets/Details.jpg" alt="My Project " width="500"/>
 </p>
 
 
