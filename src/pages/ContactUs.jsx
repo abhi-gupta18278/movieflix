@@ -49,8 +49,8 @@ const ContactUs = () => {
 
       {/* Extra Info */}
       <div className="mt-12 text-center text-gray-400 space-y-2">
-        <p>📧 support@example.com</p>
-        <p>📞 +91 98765 43210</p>
+        <a href="mailto:abhiguata18278@gmail.com">📧 abhiguata18278@gmail.com</a>
+        <a href="tel:+917900899067">📞 +91 7900899067 </a>
       </div>
     </div>
   );
