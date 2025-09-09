@@ -1,12 +1,88 @@
-# React + Vite
+🎬 MovieFlix
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+MovieFlix is a modern and responsive web application built with React + Vite.
+It allows users to explore trending movies, TV shows, popular content, and detailed information like cast, trailers, and ratings — all powered by TMDB API.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔥 Trending Section – Browse trending movies and TV shows by day or week.
 
-## Expanding the ESLint configuration
+🎥 Popular & Top Rated – Discover movies and TV shows loved by audiences.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📺 TV Shows & Seasons – Explore episodes, seasons, and detailed show info.
+
+🔍 Smart Search – Search movies, TV shows, and people easily.
+
+📊 User Score – See ratings in a modern circular progress style.
+
+📜 Overview Section – Get detailed descriptions, creators, and trailers.
+
+📱 Fully Responsive – Works seamlessly on desktop, tablet, and mobile.
+
+🖼️ Screenshots
+# My Project
+
+
+<p align="center">
+  <img src="src/assets/Home.png" alt="My Project " width="400"/>
+</p>
+🏠 Homepage
+
+
+🔥 Trending Page
+
+# Trending Page
+
+
+<p align="center">
+  <img src="src/assets/Trending.png" alt="My Project " width="400"/>
+</p>
+
+🎬 Movie Details
+# Details
+
+
+<p align="center">
+  <img src="src/assets/Details.png" alt="My Project " width="400"/>
+</p>
+
+
+🛠️ Tech Stack
+
+⚛️ React 19 + Vite – Fast and modern frontend setup
+
+🎨 Tailwind CSS – For modern and responsive UI
+
+🌐 Axios – API calls from TMDB
+
+🔄 Redux Toolkit – State management
+
+🎞️ React Player – For seamless trailer playback
+
+♾️ React Infinite Scroll Component – Infinite scrolling feature
+
+📍 React Router DOM – For smooth navigation
+
+📦 Dependencies
+"@reduxjs/toolkit": "^2.8.2",
+"@tailwindcss/vite": "^4.1.12",
+"axios": "^1.11.0",
+"react": "^19.1.1",
+"react-dom": "^19.1.1",
+"react-infinite-scroll-component": "^6.1.0",
+"react-player": "^3.3.2",
+"react-redux": "^9.2.0",
+"react-router-dom": "^7.8.2",
+"tailwindcss": "^4.1.12"
+
+⚡ Getting Started
+1️⃣ Clone the repository
+git clone https://github.com/your-username/movieflix.git
+cd movieflix
+
+2️⃣ Install dependencies
+npm install
+
+3️⃣ Run the project
+npm run dev
+
