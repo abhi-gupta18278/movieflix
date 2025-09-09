@@ -1,7 +1,10 @@
 @import "tailwindcss";
 
-body{
+body {
   background-color: #212121;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 ::-webkit-scrollbar {
   width: 7px;
@@ -13,9 +16,17 @@ body{
   border-radius: 10px;
   margin: 3px;
 }
-::-webkit-scrollbar-thumb:hover{
+::-webkit-scrollbar-thumb:hover {
   cursor: pointer;
 
   background-color: #0808a1;
   border-radius: 10px;
+}
+
+.roboto-<uniquifier > {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
 }

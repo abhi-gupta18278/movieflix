@@ -49,7 +49,7 @@ const ContactUs = () => {
 
       {/* Extra Info */}
       <div className="mt-12 text-center text-gray-400 space-y-2">
-        <a href="mailto:abhiguata18278@gmail.com">📧 abhiguata18278@gmail.com</a>
+        <a href="mailto:abhigupta18278@gmail.com">📧 abhigupta18278@gmail.com</a>
         <a href="tel:+917900899067">📞 +91 7900899067 </a>
       </div>
     </div>
