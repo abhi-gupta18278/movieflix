@@ -35,7 +35,8 @@ const App = () => {
         <Route path='/people' element={<People />} />
         <Route path='/person/details/:id' element={<PersonDetails />} />
         <Route path='/contact' element={<ContactUs />} />
-        <Route path='*' element={<Page404 />} />
+
+        <Route path='/*' element={<Page404 />} />
 
 
 
