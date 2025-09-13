@@ -13,7 +13,7 @@ const movieSlice = createSlice({
     },
     removeMovie: (state) => {
       state.info = null;
-      console.log('hii',state.info)
+      // console.log('hii',state.info)
     },
   },
 });

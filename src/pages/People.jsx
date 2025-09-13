@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import axiosapi from '../utils/axiosapi'
+import axiosapi from '../utils/axiosapi.js'
 import InfiniteScroll from 'react-infinite-scroll-component';
 import Topnav from '../component/Topnav';
 import PeopleCard from '../component/Card';

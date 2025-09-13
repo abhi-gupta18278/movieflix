@@ -1,6 +1,6 @@
 export { removeMovie } from "../reducers/movieSlice";
 import { loadMovie } from "../reducers/movieSlice";
-import axiosapi from "../../utils/axiosapi";
+import axiosapi from "../../utils/axiosapi.js";
 
 export const asyncloadmovie = (id) => async (dispatch) => {
   try {

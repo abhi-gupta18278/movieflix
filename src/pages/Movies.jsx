@@ -4,7 +4,7 @@ import Topnav from "../component/Topnav.jsx";
 import Dropdown from "../component/Dropdown.jsx";
 import InfiniteScroll from "react-infinite-scroll-component";
 import Loader from "../component/Loader.jsx";
-import axiosapi from '../utils/axiosapi'
+import axiosapi from '../utils/axiosapi.js'
 import MovieCard from '../component/Card.jsx'
 
 

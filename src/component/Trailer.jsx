@@ -1,8 +1,8 @@
 import ReactPlayer from 'react-player'
 import { useSelector } from 'react-redux';
-import Loader from './Loader';
+
 import { useLocation, useNavigate } from 'react-router-dom';
-import Page404 from './Page404';
+import Page404 from '../component/Page404.jsx'
 
 const Trailer = () => {
   const { pathname } = useLocation()
@@ -12,7 +12,7 @@ const Trailer = () => {
   const ytVideo = useSelector((state) => state[category]?.info?.videos)
 
 
-  console.log(pathname)
+  // console.log(pathname)
 
 
   return ytVideo ? (

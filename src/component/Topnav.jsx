@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import axiosapi from '../utils/axiosapi'
+import axiosapi from '../utils/axiosapi.js'
 
 const Topnav = () => {
   const [query, setQuery] = useState('')

@@ -4,7 +4,7 @@ import Dropdown from "../component/Dropdown";
 import Topnav from "../component/Topnav";
 import InfiniteScroll from "react-infinite-scroll-component";
 import Loader from "../component/Loader";
-import axiosapi from '../utils/axiosapi'
+import axiosapi from '../utils/axiosapi.js'
 import TvCard from '../component/Card'
 
 const Tv = () => {

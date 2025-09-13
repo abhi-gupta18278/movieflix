@@ -21,7 +21,7 @@ const Sidenav = () => {
     <div className="flex">
       {/* Mobile Menu Button */}
       <button
-        className="lg:hidden  md:hidden fixed top-4 left-4 z-50 bg-[#6556cd] text-white p-2 rounded-md"
+        className="lg:hidden  cursor-pointer md:hidden fixed top-4 left-4 z-50 bg-[#6556cd] text-white p-2 rounded-md"
         onClick={() => setOpen(!open)}
       >
         <i className="ri-menu-line text-xl"></i>

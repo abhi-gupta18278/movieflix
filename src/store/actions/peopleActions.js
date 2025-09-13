@@ -1,4 +1,4 @@
-import axiosapi from "../../utils/axiosapi";
+import axiosapi from "../../utils/axiosapi.js";
 import { loadPerson } from "../reducers/people";
 export { removePerson } from "../reducers/people";
 

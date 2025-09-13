@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import Dropdown from "../component/Dropdown";
 import Topnav from "../component/Topnav";
-import axiosapi from '../utils/axiosapi'
+import axiosapi from '../utils/axiosapi.js'
 import { useEffect, useState } from "react";
 import Loader from "../component/Loader";
 import TrendingCard from "../component/Card";
